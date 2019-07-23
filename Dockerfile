@@ -1,5 +1,6 @@
 # FROM docker:stable
-FROM docker:dind
+# FROM docker:dind
+FROM docker:latest
 
 # see https://github.com/docker/compose/releases for the latest release version id
 ENV COMPOSE_VERSION 1.23.2
